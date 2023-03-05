@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import "./Sidebar.css";
 import { BsChevronLeft,BsChevronRight } from "react-icons/bs";
 import SidebarList from './SidebarList';
+import { Home } from '../Home/Home';
 
 const Sidebar = () => {
 
@@ -31,8 +32,7 @@ const Sidebar = () => {
 
 
       <div className='container'>
-        <p>Home section</p>
-      
+        <Home />
       </div>
         
     </div>
