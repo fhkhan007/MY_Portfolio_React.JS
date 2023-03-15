@@ -70,7 +70,7 @@ const Testimonial = () => {
 
 
   return (
-    <div className='container testimonial-section'>
+    <div className='container testimonial-section' id='Testimonial'>
 
         <div className='section-title'>
             <h5>Testimonial</h5>

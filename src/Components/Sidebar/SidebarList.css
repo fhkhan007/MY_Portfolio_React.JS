@@ -30,6 +30,10 @@
 
 }
 
+.navbar-items ul li a{
+    text-decoration: none;
+}
+
 .navbar-items-only-icons ul li svg{
     margin-left: 10px;
 

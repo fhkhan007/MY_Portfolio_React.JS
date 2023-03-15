@@ -55,7 +55,7 @@ export const Project = () => {
 
 
   return (
-    <div className='container'>
+    <div className='container' id='Projects'>
         
         <div className='section-title'>
             <h5>Project</h5>

@@ -57,7 +57,7 @@ export const TechStack = () => {
 
 
   return (
-    <div className='container techstack-section'>
+    <div className='container techstack-section' id='techstack'>
         
         <div className='section-title'>
             <h5>Tech Stack</h5>

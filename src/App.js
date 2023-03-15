@@ -7,6 +7,10 @@ import WorkExperience from './Components/WorkExperience/WorkExperience';
 import Education from './Components/Education/Education';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Contact from './Components/Contact/Contact';
+import "./App.css"
+
+import ScrollToTop from "react-scroll-to-top";
+
 
 const App = () => {
   return (
@@ -21,6 +25,12 @@ const App = () => {
       <Testimonial />
       <Contact />
       
+      <ScrollToTop smooth 
+      top='600'
+      color='white'
+      height='20'
+      width='20'
+      style={{borderRadius:"90px", backgroundColor:"blueviolet"}}/>
     </div>
   )
 }

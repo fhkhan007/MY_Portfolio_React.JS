@@ -6,7 +6,7 @@ import MyCV from './CV.pdf';
 
 export const Home = () => {
   return (
-    <div className='container-fluid home'>
+    <div className='container-fluid home' id="home">
 
         <div className='container home-content'>
 

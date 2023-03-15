@@ -35,7 +35,7 @@ const Education = () => {
 
 
   return (
-    <div className='container education-section'>
+    <div className='container education-section' id=' Education'>
 
         <div className='section-title'>
             <h5> Education </h5>
