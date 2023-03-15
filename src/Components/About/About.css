@@ -2,11 +2,17 @@
     -webkit-box-shadow: 6px 9px 0px 5px rgba(36,4,36,0.6);
     -moz-box-shadow: 6px 9px 0px 5px rgba(36,4,36,0.6);
     box-shadow: 6px 9px 0px 5px rgba(36,4,36,0.6);
+
     margin-top: 50px;
-    height: 400px;
+    height: 500px;
+}
 
-
-
+#dark .about-section{
+    box-shadow: none;
+    background-color: darkolivegreen;
+    -webkit-box-shadow: 6px 9px 0px 5px rgba(36,4,36,0.6);
+    -moz-box-shadow: 6px 9px 0px 5px rgba(36,4,36,0.6);
+    box-shadow: 6px 9px 0px 5px rgba(36,4,36,0.6);
 }
 
 .about-image img{
@@ -15,6 +21,7 @@
     border-radius: 190px;
     margin-top: 50px;
     border: 5px solid yellow;
+    object-fit: cover;
 
 }
 
@@ -32,4 +39,10 @@
     height: 3px;
     margin: 1px auto;
     background-color: teal;
+}
+
+@media (max-width:1000px) {
+    .about-section{
+        height: auto;
+    }
 }

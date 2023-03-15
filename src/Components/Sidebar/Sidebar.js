@@ -4,7 +4,7 @@ import { BsChevronLeft,BsChevronRight } from "react-icons/bs";
 import SidebarList from './SidebarList';
 import { Home } from '../Home/Home';
 
-const Sidebar = () => {
+const Sidebar = ({theme,changeTheme}) => {
 
   const [expandSidebar, setExpandSidebar] = useState(true);
 
@@ -32,7 +32,7 @@ const Sidebar = () => {
 
 
       <div className='container'>
-        <Home />
+        <Home  changeTheme={changeTheme} theme={theme}/>
       </div>
         
     </div>

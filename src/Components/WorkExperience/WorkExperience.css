@@ -23,3 +23,7 @@
 .date-class {
     color: black;
 }
+
+#dark .date-class{
+    color: black;
+}
