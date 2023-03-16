@@ -1,6 +1,8 @@
 import React,{useState} from 'react';
 import { FcExpand,FcCollapse } from "react-icons/fc";
 import './Project.css'
+import Zoom from 'react-reveal/Zoom';
+
 
 const ProjectList = ({name,des,projectlink,techused}) => {
 
@@ -10,8 +12,9 @@ const ProjectList = ({name,des,projectlink,techused}) => {
     setShow(!show);
   };
 
-
   return (
+
+    <Zoom>
 
     <div className={show ? "project-list-opend project-list" : "project-list"} onClick={handleShowandCollapse}
     onMouseEnter={() => setShow(true)}
@@ -46,8 +49,9 @@ const ProjectList = ({name,des,projectlink,techused}) => {
       </div>
 
     </div>
-    
-  )
-}
+
+    </Zoom>
+  );
+};
 
 export default ProjectList

@@ -2,6 +2,7 @@ import React from 'react';
 import "./Project.css";
 import ProjectList from './ProjectList';
 
+
 export const Project = () => {
 
   const data = [
